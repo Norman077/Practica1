@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UFT-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="widt=device-width, initial-scale=1.0">
-    <title>Practica 1</title>
- </head>
- <body>
-    <h1>Mi primera pagina web este semestre</h1>
-    <h2>usando otra etiqueta u.u</h2>
-    <h3>usando otra etiqueta u.u</h3>
-    <h4>usando otra etiqueta u.u</h4>
-    <h5>usando otra etiqueta u.u</h5>
-    <h6>usando otra etiqueta u.u</h6> <!--<----Comentario-->
-    <p>Esto es un parrafo</p>
-    <p>Esto es un parrafo</p>
-    <p>Esto es un parrafo</p>
-    <p>Esto es un parrafo</p>
- </form>
 
- <label for="name">Nombre</label>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo principal -->
+        <a>
+            <img class="logo" src="image.png" width="30px" height="30px" />
+        </a>
+        <!-- Navegación -->
+        <nav class="navbar">
+            <ul>
+                <li>Plataforma </li>
+                <li>Principal</li>
+                <li>Recursos</li>
+            </ul>
+        </nav>
+        <!-- Contenedor -->
+        <div class="actions">
+            <a> <i>Inicio de sesion u.u</i></a>
+            <button>Inicio</button>
+        </div>
+    </header>
+
+    <h1> Mi Primera Pagina Web Este Semestre </h1>
+    <h2>Parrafo 2</h2>
+    <h3>Parrafo 3</h3>
+    <h4>Parrafo 4</h4>
+    <h5>Parrafo 5</h5>
+    <h6>Parrafo 6</h6> <!-- Este es un comentario -->
+
+    <p>ESte es un parrafo u.u</p>
+    <p>ESte es un parrafo u.u</p>
+    <p>ESte es un parrafo u.u</p>
+    <p>ESte es un parrafo u.u</p>
+    <form>
+        <label for="name">Nombre</label>
         <input type="text" id="name" name="fname" placeholder="Nombre"><br><br>
         <label>Apellido</label>
         <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
@@ -32,13 +55,190 @@
         <button></button>
         <button type="submit">Enviar</button>
     </form>
+    <img src="https://noticias.animeonegai.com/wp-content/uploads/2022/02/image-251.png" alt="" height="250px" width="250px">
 
-<img src="img/Perritos.jpg" alt="" height="" width=""
+    <section class="video">
+        <iframe width="300" height="200" src="https://youtu.be/zdJOyTYqleM" title="" frameborder="0" allow=""
+            allowfullscreen></iframe>
 
-    <input type="text">
-    <input type="email">
-    <input type="submit">
-    <button type="submit"> Enviar</button>
-    </form>    
- </body>    
+        <article class="publish">
+            <h3>
+                Aqui puedes hacer tus publicaciones u.u
+            </h3>
+            <p>
+                En el año 2126, se lanzó un juego de rol en línea multijugador masivo de inmersión o
+                DMMO-RPG llamado YGGDRASIL. Se destaca entre todos los demás DMMO-RPG debido a su habilidad
+                inusualmente alta para que el jugador interactúe con el juego. Después de una intensa racha
+                de 12 años, los servidores del juego están a punto de cerrarse. Dentro del juego existe un
+                gremio, Ainz Ooal Gown, que alguna vez estuvo conformado por 41 miembros y fue considerado
+                como uno de los gremios más fuertes del juego. Ahora solo quedan cuatro de los miembros,
+                los otros 37 han abandonado el juego. De esos cuatro, solo uno realmente continúa jugando;
+                su nombre es Momonga y sigue siendo el líder del gremio, manteniendo su cuartel general,
+                La Gran Tumba de Nazarick. Invita a los miembros restantes del gremio, pero de esos solo
+                aparece uno y solo por un corto tiempo antes de irse. Aunque Momonga está triste por esto,
+                acepta la realidad de que sus amigos tienen que cuidar sus vidas reales. Y entonces,
+                se queda en el gremio solo hasta que los servidores se apagan.
+            </p>
+            <form action="">
+                <p>Inicia tu publicacion hoy u.u</p>
+                <div>
+                    <input type="text" placeholder="Entrar al correo">
+                    <button>Empieza</button>
+                </div>
+            </form>
+        </article>
+    </section>
+
+    /*Primera parte*/
+
+    <section class="features">
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">--------
+                </figure>
+                <h3>Primer Titulo u.u</h3>
+                <p>
+                    Este es un parrafo u.u
+                </p>
+                <a href="">Publica al instante</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">-------
+                </figure>
+            </div>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">----------
+                </figure>
+                <h3>Otro titulo u.u</h3>
+                <p>
+                    No se qué poner aqui asi qué, quéso u.u
+                </p>
+                <a href="">Publica instantaneamente</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">--------
+                </figure>
+            </div>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">-------
+                </figure>
+                <h3>Eeeeey otro u.u</h3>
+                <p>
+                    Alabado sea el overlord
+                </p>
+                <a href="">Publica instantaneamente</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="image.png" alt="">--------
+                </figure>
+            </div>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://pm1.narvii.com/6199/c198f45d7799a81cfc303cf65ddf846111a9a3da_hq.jpg" alt="">-----------
+                </figure>
+                <h3>Nop ya hasta aqui...(Deja la sala)</h3>
+                <p>
+                    ninini ni se q mas
+                </p>
+                <a href="">Me haces el favor de publicars aqui plox?</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="" alt="">--------
+                </figure>
+            </div>
+        </article>
+
+        <section class="features2">
+            <article class="feature-card2">
+                <div class="feature-content2">
+                    <figure>
+                        <img src="https://www.senpaitv.com/wp-content/uploads/2022/06/cover.jpg" alt="">
+                    </figure>
+                    <h3>Lee libros</h3>
+                    <p>
+                        Mucho texto de algo de examen
+                    </p>
+                    <a href="">Publica algo crack</a>
+                </div>
+                <div class="feature-image2">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </div>
+            </article>
+    
+            <article class="feature-card2">
+                <div class="feature-content2">
+                    <figure>
+                        <img src="https://www.senpaitv.com/wp-content/uploads/2022/06/cover.jpg" alt="">
+                    </figure>
+                    <h3>Otro titulo u.u</h3>
+                    <p>
+                        Otra cosa
+                    </p>
+                    <a href="">Publica instantaneamente</a>
+                </div>
+                <div class="feature-image2">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </div>
+            </article>
+    
+            <article class="feature-card2">
+                <div class="feature-content2">
+                    <figure>
+                        <img src="https://www.senpaitv.com/wp-content/uploads/2022/06/cover.jpg" alt="">
+                    </figure>
+                    <h3>Otro u.u</h3>
+                    <p>
+                        Pudin
+                    </p>
+                    <a href="">Publica instantaneamente</a>
+                </div>
+                <div class="feature-image2">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </div>
+            </article>
+    
+            <article class="feature-card2">
+                <div class="feature-content2">
+                    <figure>
+                        <img src="https://www.senpaitv.com/wp-content/uploads/2022/06/cover.jpg" alt="">
+                    </figure>
+                    <h3>...(Deja la sala)</h3>
+                    <p>
+                        Ya la neta no se q poner
+                    </p>
+                    <a href="">Me haces el favor de publicars aqui</a>
+                </div>
+                <div class="feature-image2">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </div>
+            </article>
+    
+
+</body>
+
+ </header>
 </html>
