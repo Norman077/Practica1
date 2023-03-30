@@ -11,7 +11,7 @@ button {
     margin-top: 1px;
     margin-left: 100px;
     margin-right: 20px;
-    font-size: 0;
+    font-size: 20;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -129,3 +129,29 @@ li{
 .features2 .feature-card2 .feature-content2 img{
     width: 90px;
 }
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
+
+.feature-card{
+  grid-template:repeat(4,1fr) / 1fr ;
+
+}
+
